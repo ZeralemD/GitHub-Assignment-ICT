@@ -40,3 +40,35 @@ required>
  <input type="email" id="email" name="email" placeholder="Enter email here" 
 required>
 <br><br>
+<label for="grade"> Grade: </label>
+<select name="grade" id="grade" required>
+<option value="select">Select your appropriate grade</option>
+<option value="7th">7th</option>
+<option value="8th">8th</option>
+<option value="9th">9th</option>
+<option value="10th">10th</option>
+<option value="11th">11th</option>
+<option value="12th">12th</option>
+</select>
+<br><br>
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" required>
+</form>
+<hr class="solid">
+<h3 class="za">Personal Thoughts</h3>
+<form>
+<label> Would you recommend the Ais ICT learning program to others? </label>
+<br>
+<input type="radio" id="recommend" name="recommend" required>
+<label for="recommend">Most definitely</label>
+<br>
+<input type="radio" id="recommend" name="recommend">
+<label for="recommend">Probably</label>
+<br>
+<input type="radio" id="recommend" name="recommend">
+<label for="recommend">Probably not</label>
+<br>
+</form>
+<form>
+<label> Languages and Frameworks you are interested in for the future: </label>
+<small> (Check all that applys) </small>
