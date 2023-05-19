@@ -72,3 +72,33 @@ required>
 <form>
 <label> Languages and Frameworks you are interested in for the future: </label>
 <small> (Check all that applys) </small>
+<br>
+<input type="checkbox" id="lang1" name="lang1" value="Language" required>
+<label for="lang1"> C++ </label>
+<br>
+<input type="checkbox" id="lang1" name="lang1" value="Language">
+<label for="lang2"> JavaScript </label>
+<br>
+<input type="checkbox" id="lang1" name="lang1" value="Language">
+<label for="lang3"> Python </label>
+<br>
+<input type="checkbox" id="lang1" name="lang1" value="Language">
+<label for="lang4"> Bootstrap </label>
+<br>
+<input type="checkbox" id="lang1" name="lang1" value="Language">
+<label for="lang5"> Angular </label>
+<br>
+</form>
+<div>
+<label for="comment"> Any comments or suggestions: </label> 
+<br>
+<textarea name="comment" id="comment" placeholder="Enter your comment here" 
+rows="10" cols="50">
+</textarea>
+</div>
+<br>
+<form>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html
